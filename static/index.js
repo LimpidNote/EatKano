@@ -441,9 +441,9 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '唔嗯…这样是赢不了哥哥的';
-        if (cps <= 8) return '今天的练习就到这里吧！';
-        if (cps <= 10)  return '城里人都好厉害啊！';
+        if (cps <= 5) return '唔姆…这样是赢不了哥哥的';
+        if (cps <= 8) return '城市里的人都好厉害啊！';
+        if (cps <= 10)  return '好强的实力啊…！';
         if (cps <= 15) return '唔姆唔姆唔姆';
         return '一起来毁灭偶像吧！';
     }
